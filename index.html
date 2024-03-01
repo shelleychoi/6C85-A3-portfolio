@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 3</small>
+			Visualization Design
+		</h1>
+
+		<p>
+			<strong>Shelley Choi</strong> — <em>shello@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Phase One: Sketching Visualizations</h2>
+			<p>Question: What is the difference in age distribution between 1900 and 2000?</p>
+
+      <figure>
+			<img src="./images/Drawing1.jpg" alt="" style="max-width: min(65vw, 70em);" />
+				<figcaption>
+					BRIEF CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 1:
+			</p>
+
+			<ul>
+				<li>I chose a stacked bar graph because they can represent the differences between each of the census groups easily. They can show the comparisons of the total count well. </li>
+				<li>I decided I don’t really care about the sex distributions for now, so I summed the male and female populations for each census, respectively.</li>
+				<li>Like we learned in graphical perception studies, as long as there aren’t too many groups, you can tell which section/census has a higher number of people in that category. Each of the bars represent a bin of 5 years.</li>
+				<li>Instead of using color, I used texture so there isn’t a distinction between the two sex that could be attributed to gender stereotypes.</li>
+				<li>I did realize after drawing the stacked bar graph that a side-by-side bar graph would’ve shown the distribution clearer. At first glance, the viewer is likely going to see the overall trend more (a summation of 1900 and 2000 census populations), which doesn’t really answer my question.</li>
+				<li>I realized I also want to look at the male and female distributions and how they differ between 1900 and 2000, which led me to my next graph.</li>
+			</ul>
+
+      <figure>
+			<img src="./images/Drawing2.jpg" alt="" style="max-width: min(65vw, 70em);" />
+				<figcaption>
+          BRIEF CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 2:
+			</p>
+
+			<ul>
+				<li>I wanted to use a population pyramid, as they’re excellent in showing the age distribution of a population. Because they also separate out males and females quite clearly, it was a great extension to my previous graph.</li>
+				<li>I added all of the different components together, so there’s male populations on the lefthand side and female on the righthand side. The bars are horizontally stacked bar graphs.</li>
+				<li>Again, I didn’t want to assume stereotypical gender colors, so I used different types of texture instead. The legend shows the four different types I used.</li>
+				<li>Similar to the graph above, however, it’s easier to see the overall trend of the male and female populations combined now, instead of a clear distinction between 1900 and 2000.</li>
+			</ul>
+
+      <figure>
+			<img src="./images/Drawing3.jpg" alt="" style="max-width: min(65vw, 70em);" />
+				<figcaption>
+          BRIEF CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 3:
+			</p>
+
+			<ul>
+				<li>Instead of relying on bar graphs, I switched to a boxplot since the ages are (technically) continuous, just represented in a bin format.</li>
+				<li>Now, the distinction between 1900 and 2000 is much clearer, as you can see where each of the 25th, 50th, and 75th percentiles lie. In addition, if there are any outliers in each of the census, it would be easy to see as well.</li>
+				<li>The two boxplots are shaded differently to add to the difference between the two.</li>
+				<li>It’s also much easier to see that the 1900 census population is concentrated at a lower age, with a lower median, than the 2000 census population.</li>
+					
+			</ul>
+
+      <h3>Reflection</h3>
+
+      <p>
+        Each of the graphs I tried (stacked bar graph, population pyramid, boxplot) all have their strengths and weaknesses. The stacked bar graph is a graph most are already familiar with, so it’s easy for the reader to read, but the way I constructed the graph isn’t very conducive to what I want the users to see (it looks at the overall trend of combined 1900 and 2000 census populations). The population pyramid is apt for any sort of population distribution, as it shows the trend of count per age very well. But, I think I crammed in too much information. The four different population categories becomes confusing very quickly. Lastly, the boxplot graph is simple enough to show the distribution, but I think in this case it was a bit too clear to answer my question properly. I’ll likely stick with the concept of the population pyramid, but either switch it to only two categories (1900 versus 2000 population), or use four but do it in a manner that is simple and easy to read (so no stacking bars). 
+      </p>
+
+		</section>
+
+		<section>
+			<h2>Phase Two: Final Design</h2>
+			<p>Question: How is America’s population distribution trend changing over time (increasing or decreasing population)?</p>
+			<figure>
+				<img src="./images/PopulationPyramid.jpg" alt="" style="max-width: min(65vw, 70em);" />
+				<figcaption>
+				Tracking population trends show rapidly growing population in 1900 to slowly growing population in 2000.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Design Process & Design Decisions</h2>
+
+			<p>
+				Aim:<br>
+				I am trying to communicate the trend in the U.S. population between 1900 and 2000 through a population pyramid: while the population was rapidly expanding in 1900, it has settled into an ageing, slow growth population in 2000. 
+				A population pyramid can show three types of trends: expansive (triangular shape), constrictive (wider in the middle), and stationary (square shape). Expansive pyramids represent populations with high birth rate and high death rate, meaning that the population is fast-growing. Constrictive pyramids represent populations with a low birth rate and a low death rate with a longer life expectancy. Stationary pyramids have a stable population. 
+				We can clearly see in our visualization that the triangular nature of the 1900 census population pyramid means it’s expansive/rapidly growing, and the 2000 census is wider in the middle meaning it’s constrictive/slowly growing. This is likely due to America becoming a more developed country over the years, where a pattern of longer life expectancy, low birth rate, and low death rate is expected. The general trend of the population pyramid aptly shows the audience and answers my question that America’s population distribution is changing from a rapidly growing to a slowly growing population. We could also dive into the details of such population distribution. We can see that there’s a large bulge around those aged 35-45, which is also in line with the baby boom in the United States. 
+				The design decisions I made along the way are listed as the following.<br><br>
+
+				Visual Encodings:<br>
+				I scaled the image so that each of the population pyramids fit into a square. Otherwise, it can give a skewed impression if it is too wide and flat or too tall and skinny. This meant that the x-axis for the 2000 census population pyramid was no longer represrenting the same scale as the 1900 census population pyramid; the ticks for the 2000 census pyramid is 5M, whereas the ticks for the 1900 census is 1M. This is due to the fact that there is a vast difference in population count. However, I decided to leave this difference in scale because my question seeks to answer the trend of the population, and I’m not necessarily interested in the observed values of the population count between those two years. I used colors that weren’t gender-stereotypical, as blue is commonly used for males and pink for females. I didn’t like that’s what is often automatically seen and considered to be male versus female in visualizations, and enforcing those stereotypes really hold people back from being their true selves. I originally considered four colors, for each of the 1900 male, 1900 female, 2000 male, and 2000 female categories, but decided not to. I noticed during Phase One that there is undue complexity that doesn’t even add to the meaning of the graph, and the data-ink ratio becomes too high. I also didn’t choose to shade the 1900 pyramid in one color and the 2000 pyramid in another color, because there’s clearly two different clusters of data. Users can already easily tell which side is 1900 and which side is 2000. If anything, it adds to the familiarity of a population pyramid by shading the males in one color and the females in another color (albeit not the classic blue and pink). Furthermore, I considered annotaiton but decided against it. Again, added text can just make the graph more complicated and difficult to iunderstand, and the current visualization is most representative of a simpler population pyramid that already answers my question well. <br><br>
+
+				Transformations:<br>
+				I created a dual axis and reversed the sorting order of the males’ x-axis in order to create the shape of a population pyramid. While a dual axis often has different values and is used to showcase trends, I synchronized the axes so that the age bins stay consistent and we can locate the age across the graph. I also reverse sorted the age from 0 to 90 to fit the common population pyramid framework as well, where the oldest population is at the top and the youngest population is at the bottom. I decided that there is no reason to fight common perceptions that already exist about how to read population pyramids; it does not add any meaningful value. I further transformed the data by creating calculated fields, checking for the year and sex, to separate out the people count into 1900 males, 1900 females, 2000 males, and 2000 females, respectively.<br><br>
+
+				Source: <a href="https://education.nationalgeographic.org/resource/population-pyramid/">https://education.nationalgeographic.org/resource/population-pyramid/</a>
+			</p>
+
+
+      <h3>Reflection</h3>
+
+      <p>
+			Phase one definitely informed my design for this assignment. I think I would’ve otherwise stuck with a stacked bar graph, or even a shaded density plot. They’re both great graphs, but it took a lot of reflecting to really find how I could answer my question properly. I changed course because I figured a stacked bar graph didn’t really show the answer I was looking for clearly, and splitting the data too closely made the visualization even more complicated. The boxplot, on the other hand, made the graph too simple and didn’t really show me anything beyond “okay, the median age of the 1900 census population was lower than the 2000 census population.” By the end, they were simply visualizations with no real meaning. I stuck with the idea of a population pyramid, but I split that into two population pyramids, one for the 1900 census and another for the 2000 census, in order to clearly answer my question. It was only this way that I can see that the 1900 population was more youthful, whereas now, the 2000 population is ageing. I also was able to change my question from phase one to answer something that contained a little more nuance besides “the number of people living in the U.S. is increasing.” That is an easy observation, which is borderline common sense. I really wanted to examine the trend of the population. How are people distributed in terms of age? What is the birth rate like? I'm really glad I went through both of the phases to really explore and find what kind of visualization I wanted to best answer my question.
+      </p>
+		</section>
+	</main>
+</body>
+</html>
